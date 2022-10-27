@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut-icon" href="media\pinguino.jpgg">
+    <link rel="shortcut-icon" href="/media/pinguino.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css\style.css">   
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -13,17 +13,19 @@
 </head>
 <body>
     <header class="header">
+      
         <div class="logo">
-        <img src="media\pinguino.jpg"  class="img-circle" alt="logo de la radio">
+          <img src="media\pinguino.jpg"  class="img-circle" alt="logo de la radio">
         </div>
           <nav>
             <ul class="nav-links">
-              <li><a href="index.html"></a>Inicio</li>
-              <li><a href="paginas\noticas.html"></a>Noticias</li>
-              <li><a href="paginas\programacion.html"></a>Programacion</li>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="paginas/noticas.html">Noticias</a></li>
+              <li><a href="paginas/programacion.html">Programacion</a></li>
             </ul>
           </nav>
-      <a href="paginas\sobre_nosotros.html" class="btn"><button>Sobre Nosotros</button></a>
+      
+      <a href="paginas/sobre_nosotros.html" class="btn"><button>Sobre Nosotros</button></a>
     </header>
     <main class="main">
         <div class="titulo-de-la-pagina">
@@ -34,8 +36,8 @@
             <h2  class="texto">Programa en vivo</h2>
         </div>
     <section class="transmision-en-directo">
-            <div class="link-de-twitch">    
-              <iframe src="https://player.twitch.tv/?channel=vorterixok&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>       
+            <div class="link-de-twitch">  
+              <iframe class="twitch" width="560" height="315" src="https://www.youtube.com/embed/d89GU2q_CGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
     </section>
             <div class="subtitulos-de-la-pagina">
@@ -54,29 +56,11 @@
               <h2  class="texto">Ultimos programas</h2>
             </div>
     <section class="lista-de-videos">
-            <div class="videos">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/qp4aiyfUcck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
-            </div>
-            <div class="videos">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/1tEtM7XJSPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="videos">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/NzBxBrBtis8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="videos">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/EXOU6W10frk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/T95u3xjbswo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-            </div>
-            <div class="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/s4AdXXAhvaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-            </div>
-            <div class="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dFIwr1G8a-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-            </div>
-            <div class="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQEY4qUOVLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="container-videos">
+              <div class="video-1"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/zWZdXb30zhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="video-2"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/_BXjzOjBKwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="video-3"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/dQEY4qUOVLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div class="video-4"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/qp4aiyfUcck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
     </section>
     </main>
